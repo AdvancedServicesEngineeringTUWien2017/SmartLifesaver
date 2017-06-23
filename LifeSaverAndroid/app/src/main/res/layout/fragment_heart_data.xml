@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/margin_large"
+        android:text="Patient information"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/blood_pressure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/title"
+        android:layout_marginLeft="@dimen/margin_large"
+        android:layout_marginTop="@dimen/margin_large"
+        android:text="Resting blood pressure: " />
+
+    <TextView
+        android:id="@+id/blood_pressure_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/blood_pressure"
+        android:layout_marginLeft="@dimen/margin_small"
+        android:layout_toRightOf="@+id/blood_pressure"
+        android:text="120" />
+
+
+    <TextView
+        android:id="@+id/cholesterol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/blood_pressure"
+        android:layout_below="@+id/blood_pressure"
+        android:layout_marginTop="@dimen/margin_large"
+        android:text="Serum cholestoral in mg/dl: " />
+
+    <TextView
+        android:id="@+id/cholesterol_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/cholesterol"
+        android:layout_marginLeft="@dimen/margin_small"
+        android:layout_toRightOf="@+id/cholesterol"
+        android:text="120" />
+
+
+    <TextView
+        android:id="@+id/heart_rate_max"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cholesterol"
+        android:layout_below="@+id/cholesterol"
+        android:layout_marginTop="@dimen/margin_large"
+        android:text="Heart rate: " />
+
+    <TextView
+        android:id="@+id/heart_rate_max_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/heart_rate_max"
+        android:layout_marginLeft="@dimen/margin_small"
+        android:layout_toRightOf="@+id/heart_rate_max"
+        android:text="120" />
+
+    <TextView
+        android:id="@+id/blood_sugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/heart_rate_max"
+        android:layout_below="@+id/heart_rate_max"
+        android:layout_marginTop="@dimen/margin_large"
+        android:text="Too much blood sugar: " />
+
+    <TextView
+        android:id="@+id/blood_sugar_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/blood_sugar"
+        android:layout_marginLeft="@dimen/margin_small"
+        android:layout_toRightOf="@+id/blood_sugar"
+        android:text="120" />
+
+
+
+
+
+</RelativeLayout>

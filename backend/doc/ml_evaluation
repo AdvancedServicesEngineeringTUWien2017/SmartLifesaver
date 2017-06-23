@@ -1,0 +1,46 @@
+
+
+------------------------ 1) Logistic Regression
+
+Accuracy = 0.550561797752809
+
+
+Confusion matrix:
+128.0  23.0  3.0  3.0  1.0
+30.0   55.0  9.0  6.0  2.0
+4.0    30.0  5.0  8.0  0.0
+4.0    20.0  8.0  8.0  0.0
+0.0    3.0   1.0  5.0  0.0
+
+
+Class 0.000000 precision = 0.771084
+Class 0.000000 recall = 0.810127
+Class 0.000000 F1 score = 0.790123
+Class 1.000000 precision = 0.419847
+Class 1.000000 recall = 0.539216
+Class 1.000000 F1 score = 0.472103
+Class 2.000000 precision = 0.192308
+Class 2.000000 recall = 0.106383
+Class 2.000000 F1 score = 0.136986
+Class 3.000000 precision = 0.266667
+Class 3.000000 recall = 0.200000
+Class 3.000000 F1 score = 0.228571
+Class 4.000000 precision = 0.000000
+Class 4.000000 recall = 0.000000
+Class 4.000000 F1 score = 0.000000
+Weighted precision = 0.517868
+Weighted recall = 0.550562
+Weighted F1 score = 0.529706
+Weighted false positive rate = 0.187921
+
+--------------------- 2) Decision Tree
+
+Test Error = 0.47250000000000003
+Test weightedRecall = 0.5275
+Test weigthtedF1Score = 0.5062406860860835
+
+Logistic Regression Classifier evaluation:
+EvaluationWrapper(accuracy=0.550561797752809, precision=0.5178676432226098, recall=0.550561797752809, f1score=0.5297056907804731)
+
+Decision Tree Classifier evaluation:
+EvaluationWrapper(accuracy=0.519893899204244, precision=0.5507926059650197, recall=0.5198938992042441, f1score=0.5348974030876601)

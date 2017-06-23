@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">LifeSaverAndroid</string>
+
+    <string name="open_drawer">open</string>
+    <string name="close_drawer">close</string>
+
+
+    <string name="heart_data">Hearth Data</string>
+    <string name="notifications">Notifications</string>
+
+    <string name="warning">Warning</string>
+    <string name="information">Info</string>
+
+    <string name="patient_data_update_in_progress">Patient data are beeing updated!</string>
+
+    <string name="notification_deleted">Notification has been successfully deleted</string>
+
+</resources>
